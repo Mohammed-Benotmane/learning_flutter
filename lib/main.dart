@@ -12,6 +12,10 @@ void main() => runApp(MaterialApp(
           'My Body App',
           style: TextStyle(
             fontSize: 20.0,
+            fontWeight: FontWeight.bold,
+            letterSpacing: 2.0,
+            color: Colors.grey[600],
+            fontFamily: 'IndieFlower',
           ),
       ),
     ),
