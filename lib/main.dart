@@ -14,7 +14,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image.asset('assets/de-jesus-benitez-kEgJVDkQkbU-unsplash.jpg'),
+        child: Icon(
+          Icons.airport_shuttle,
+          color: Colors.blue[600],
+          size: 70.0,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
